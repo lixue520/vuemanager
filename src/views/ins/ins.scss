@@ -1,0 +1,59 @@
+.el-container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.header-avatar {
+    float: right;
+    width: 210px;
+    display: flex;
+    justify-content: space-around;
+    /**可以撑开 */
+    align-items: center;
+    /**上下居中 */
+}
+
+/* 
+.el-avatar {
+    margin-top: 10px;
+    flex;两个才item才起效果？
+} */
+
+
+.el-dropdown-link {
+    cursor: pointer;
+}
+
+.el-header {
+    background-color: #17B3A3;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+}
+
+.el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    line-height: 200px;
+}
+
+.el-main {
+    color: #333;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.el-menu-vertical-demo {
+    height: 100%;
+}
+
+.img-user{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+}
